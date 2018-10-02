@@ -1,3 +1,3 @@
-FROM sqil/leaflims-frontend
+FROM sqil/leaflims-frontend:3.2.1
 
 COPY config.json /usr/share/nginx/html/config/config.json
